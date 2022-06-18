@@ -26,7 +26,7 @@ function AuthenticateAccessToken(req,res,next){
 }
 
 // GET localhost:8080/karyawan => Ambil data semua karyawan
-router.get('/karyawan', , karyawan.getDataKaryawan);
+router.get('/karyawan', karyawan.getDataKaryawan);
 
 // GET localhost:8080/karyawan/2 => Ambil data semua karyawan berdasarkan id = 2
 router.get('/karyawan/:id', karyawan.getDataKaryawanByID);
